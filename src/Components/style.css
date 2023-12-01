@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.box h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 5vw; /* Responsive font size using viewport width */
+  margin-bottom: 2vw; /* Responsive margin using viewport width */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.main-container {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  width: 90%; /* Use percentage for responsive width */
+  max-width: 1000px; /* Set maximum width for larger screens */
+  height: auto; /* Auto height for responsive design */
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 5px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.i-lbl {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2vw; /* Responsive margin using viewport width */
+  background-color: rgb(95, 160, 160);
+}
+
+label {
+  color: black;
+  font-size: 1.5vw; /* Responsive font size using viewport width */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon {
+  font-size: 3vw; /* Responsive font size using viewport width */
+  cursor: pointer;
+}
+
+input {
+  width: 80%; /* Use percentage for responsive width */
+  max-width: 150px; /* Set maximum width for larger screens */
+  height: 4vw; /* Responsive height using viewport width */
+}
+
+select {
+  width: 80%; /* Use percentage for responsive width */
+  max-width: 150px; /* Set maximum width for larger screens */
+  padding: 1vw; /* Responsive padding using viewport width */
+  margin: 1vw; /* Responsive margin using viewport width */
+}
+
+button {
+  padding: 1vw 10vw; /* Responsive padding using viewport width */
+  width: 50%; /* Use percentage for responsive width */
+  max-width: 150px; /* Set maximum width for larger screens */
+  border-radius: 10px;
+  font-size: 2vw; /* Responsive font size using viewport width */
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-image: linear-gradient(to top, #6a11cb 3%, #2575fc 90%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 3vw; /* Responsive margin using viewport width */
+}
