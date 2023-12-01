@@ -8,7 +8,7 @@ Simple currency conversion app, which uses exchanged rates API from https://curr
 `React-Redux` \
 `ContextAPI`\
 `React-Icons`\
-`Responsivness`\
+`Responsivness`
 
 # Getting Started with Create React App
 
