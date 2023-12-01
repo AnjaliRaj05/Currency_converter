@@ -1,3 +1,15 @@
+# Project TiTle : React_currency_Converter_App
+Simple currency conversion app, which uses exchanged rates API from https://currencylayer.com/documentation.. The app is made with React in a Functional Programming like approach.
+
+## UI: Example
+![Screenshot (1168)](https://github.com/AnjaliRaj05/Currency_converter/assets/92683584/7d4469eb-a05b-47e4-8eae-91735609e90f)
+
+# Additional Info
+`React-Redux` \
+`ContextAPI`\
+`React-Icons`\
+`Responsivness`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
