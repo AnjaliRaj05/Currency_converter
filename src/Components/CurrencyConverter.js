@@ -30,7 +30,7 @@ const CurrencyConverter = () => {
       try {
         const response = await axios.get(
          
-       `https://apilayer.net/api/live?access_key=865b1040ef445b8269f84799d35acc41&currencies=${targetCurrency}&source=${sourceCurrency}&format=1`
+       `http://apilayer.net/api/live?access_key=865b1040ef445b8269f84799d35acc41&currencies=${targetCurrency}&source=${sourceCurrency}&format=1`
         );
 
         const rate = response.data.quotes[`${sourceCurrency}${targetCurrency}`];
